@@ -16,7 +16,7 @@ def send_mail(message):
         server.sendmail(username, receiver, message)
 
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     def_message = """\
     Subject: YO!
     
